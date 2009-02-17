@@ -26,6 +26,6 @@ Yes. http://cochinoman.com/2009/02/16/wordpress-plugin-for-splash-screen/
 
 == Screenshots ==
 
-1. splashscreensetting.jpg is the screen shot of the setting screen.
-2. splashscreen.jpg is a sample output of the splash screen using the default template.
+1. Screen shot of the setting screen.
+2. Sample output of the splash screen using the default template.
 
