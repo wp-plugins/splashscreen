@@ -20,9 +20,10 @@ Extract the zip file content after download and copy the directory "splashscreen
 
 == Frequently Asked Questions ==
 
-= Is there more documentation? =
+= Are there more documentation? =
 
-Yes. http://cochinoman.com/2009/02/16/wordpress-plugin-for-splash-screen/
+Yes.
+http://cochinoman.com/2009/02/16/wordpress-plugin-for-splash-screen/
 
 == Screenshots ==
 
