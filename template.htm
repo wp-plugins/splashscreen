@@ -1,0 +1,41 @@
+<?php get_header(); ?>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- hide from old browsers
+function setCookie(name, value, expires, path, domain, secure) {
+	document.cookie = name + "=" + escape(value) +
+	((expires) ? "; expires=" + expires.toGMTString() : "") +
+	((path) ? "; path=" + path : "") +
+	((domain) ? "; domain=" + domain : "") +
+	((secure) ? "; secure" : "");
+}
+
+function setsplash() {
+	setCookie("splash", "1", "", "/");
+}
+//-->
+</SCRIPT>
+
+<div align="center">
+	<h3>To enter this website, you must agree to the terms below.<h3>
+	<table border="0" align="center">
+	<tr>
+		<td colspan="2">
+			<FORM>
+			<P><TEXTAREA NAME="comments" COLS="70" ROWS="7" READONLY>The material contained herein is intended for mature audiences and is not suitable for persons under the age of 18. If you are under 18 or feel you would be offended by this type of material, please exit this site.
+	
+By using this website, you agree to the Terms of Service below. Please read them carefully. This Terms of Service is a binding contract between you and this website. If you do not agree with any of these terms, please exit this website.
+	
+TERMS OF SERVICE:
+Bla Bla Bla</TEXTAREA><br />
+		</td>
+	</tr>
+	<tr>
+		<td align="left"><h2><a onclick="setsplash()" href="">I Agree</a></h2></td>
+		<td align="right"><h2><a href="http://google.com/">I Do Not Agree</a></h2></td>
+	</tr>
+	</table>
+</div>
+
+<?php get_footer(); ?>
+					

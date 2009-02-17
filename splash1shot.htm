@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<META NAME="KEYWORDS" CONTENT="splash screen, wordpress, djpushplay.com">
+<META NAME="DESCRIPTION" CONTENT="Splash Screen for Wordpress.">
+<SCRIPT LANGUAGE="JavaScript">
+<!-- hide from old browsers
+function setCookie(name, value, expires, path, domain, secure) {
+	document.cookie = name + "=" + escape(value) +
+	((expires) ? "; expires=" + expires.toGMTString() : "") +
+	((path) ? "; path=" + path : "") +
+	((domain) ? "; domain=" + domain : "") +
+	((secure) ? "; secure" : "");
+}
+
+function setsplash() {
+	var exp = new Date();
+	var expDays = 365;
+	exp.setTime(exp.getTime() + (expDays * 24 * 60 * 60 * 1000));
+	setCookie("splash", "1", exp, "/");
+}
+//-->
+</SCRIPT>
+<TITLE>Splash Screen</TITLE>
+</HEAD>
+
+<BODY TEXT="#000000" BGCOLOR="#FFFFFF">
+
+<div align="center">
+
+<H1>Splash Screen</H1>
+To enter this website, you must agree to the terms below.
+<table border="0" align="center">
+<tr>
+	<td colspan="2">
+		<FORM>
+		<P><TEXTAREA NAME="comments" COLS="70" ROWS="7" READONLY>The material contained herein is intended for mature audiences and is not suitable for persons under the age of 18. If you are under 18 or feel you would be offended by this type of material, please exit this site.
+
+By using this website, you agree to the Terms of Service below. Please read them carefully. This Terms of Service is a binding contract between you and this website. If you do not agree with any of these terms, please exit this website.
+
+TERMS OF SERVICE:
+Bla Bla Bla</TEXTAREA><br />
+	</td>
+<tr>
+	<td align="left"><a onclick="setsplash()" href=""><h2>I Agree</h2></a></td>
+	<td align="right"><a href="http://google.com/"><h2>I Do Not Agree</h2></a></td>
+</tr>
+
+</table>
+
+<!-- Put Footer Here -->
+</div>
+
+</BODY>
+
+</HTML>
